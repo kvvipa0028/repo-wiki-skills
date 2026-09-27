@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Wiki"
+  short_description: "先完整阅读分析工程并规划目录，再生成覆盖完整且每模块具备调用关系图与时序图的 Wiki"
+  default_prompt: "使用 $repo-wiki 完整阅读和分析工程，按模块规划整体目录后再生成中文 Wiki；每个模块必须具备 Mermaid 调用关系图和调用时序图，逐页与全仓复核，不为节省 token 缩减范围或深度。"
